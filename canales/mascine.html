@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<meta charset=utf-8 />
+<title>+CINE</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="index-clappr.css"/>
+<head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js">
+</script>
+</head>
+<body>
+ 
+<div class="contenedor">
+<div id="player"></div>
+<script> var player = new Clappr.Player({source: "https://tv.streaming-chile.com:1936/8142/8142/chunklist_w38943410.m3u8?WebM3UCL", title: '+ CINE',height: 480, width: 854, parentId: "#player"});
+    
+    var playerElement = document.getElementById("player-wrapper");
+player.attachTo(playerElement);
+
+</script>
+</div>
+</body>
+</html>

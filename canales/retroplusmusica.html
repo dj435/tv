@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<meta charset=utf-8 />
+<title>RETROPLUS2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="index-clappr.css"/>
+<head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js">
+</script>
+</head>
+<body>
+ 
+<div class="contenedor">
+<div id="player"></div>
+<script> var player = new Clappr.Player({source: "https://video06.logicahost.com.br/retroplustv/retroplustv/chunklist_w1088564881.m3u8", title: 'NOMBRE',height: 480, width: 854, parentId: "#player"});
+    
+    var playerElement = document.getElementById("player-wrapper");
+player.attachTo(playerElement);
+
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<meta charset=utf-8 />
+<title>WOW TV</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="index-clappr.css"/>
+<head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js">
+</script>
+</head>
+<body>
+ 
+<div class="contenedor">
+<div id="player"></div>
+<script> var player = new Clappr.Player({source: "http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/chunklist_w454258933.m3u8", title: 'WOW TV',height: 480, width: 854, parentId: "#player"});
+    
+    var playerElement = document.getElementById("player-wrapper");
+player.attachTo(playerElement);
+
+</script>
+</div>
+  
+ </body>
+ </html>
